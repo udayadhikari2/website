@@ -5,8 +5,6 @@ function About() {
     return (
         <div className="App">
             <header className="App-header">
-               
-            
             <h1>About Us
             </h1>
                 <p>
