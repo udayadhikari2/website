@@ -1,13 +1,29 @@
-@import "~bootstrap/scss/bootstrap";
-.App{
-    text-align:center;
+
+.homePage{
+    margin:100px;
+  .sologan{
+      max-width:550px;
+      h2{
+        font-family: 'Special Elite'
+      }
+      &::first-letter{
+        font-weight:999;
+        font-size: 2.8rem;
+      }
+    }
+      p{
+          letter-spacing: 2px;
+          font-weight:99;
+    .btn{
+        
+  }
+}
 }
 // App.js Style
 
 
 // Nav.js Style
 .Apps{
-    text-align: center;
         .navBar{
             justify-content:space-between;
             display: flex;

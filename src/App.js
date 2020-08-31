@@ -23,10 +23,22 @@ function App() {
 }
 
 const Home=()=>(
- <div>
-   <div className="btn btn-primary">
-     Hello
+ <div className="homePage">
+   <div className="sologan">
+     <h2>
+     People Making Technology Work
+     </h2>
+     <p>
+     Our business entity that focuses mainly on the development and manufacturing of technology products or providing technology as a service.
+     </p>
+   <div className="btn btn-primary justify-content-center">
+     Learn More
    </div>
+   <div className="frontVector">
+     <img src="./images/laptop.png" alt=""/>
+   </div>
+   </div>
+
  </div>
 )
 
