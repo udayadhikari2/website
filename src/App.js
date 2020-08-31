@@ -3,6 +3,8 @@ import './App.css';
 import Nav from './components/nav';
 import About from './components/About';
 import Contact from './components/contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 import {BrowserRouter as Router, Switch, Route,Link} from 'react-router-dom';
 
 function App() {
@@ -21,11 +23,11 @@ function App() {
 }
 
 const Home=()=>(
-  <div>
-    <h1>
-      This Is my Home Page
-    </h1>
-  </div>
+ <div>
+   <div className="btn btn-primary">
+     Hello
+   </div>
+ </div>
 )
 
 

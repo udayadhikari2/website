@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
+
+
 function Nav() {
     return (
         <div className="Apps">
@@ -11,13 +13,13 @@ function Nav() {
                         logo
                 </div>
                     <div className="navList">
-                        <Link to=''>
+                        <Link className="linkStyle" to=''>
                             <li>Home</li>
                         </Link>
-                        <Link to='/components/About'>
+                        <Link className="linkStyle" to='/components/About'>
                             <li>About Us</li>
                         </Link>
-                        <Link to='/components/contact'>
+                        <Link className="linkStyle" to='/components/contact'>
                             <li>Contact Us</li>
                         </Link>
                     </div>
