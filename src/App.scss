@@ -1,25 +1,51 @@
 
 .homePage{
-    margin:100px;
+    display:flex;
   .sologan{
       max-width:550px;
+      margin:100px 50px;
       h2{
-        font-family: 'Special Elite'
-      }
+        font-family: 'Special Elite';
       &::first-letter{
         font-weight:999;
         font-size: 2.8rem;
-      }
-    }
+         }
+        }
       p{
           letter-spacing: 2px;
           font-weight:99;
-    .btn{
-        
-  }
+      }
+}
+.frontVector{
+    margin:50px;
+    img{
+        width:650px;
+        height:380px;
+    }
+    h3{
+        position: relative;
+        border-right: .15em solid black;
+        top:180px;
+        letter-spacing: .05em;
+        white-space: nowrap;
+        margin: 0 auto;
+        width:290px;
+        // border:1px solid red;
+        overflow: hidden;
+        animation:typing 3.5s steps(20, end), blink-caret 0.5s step-end;
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 45% }
+          }
+          @keyframes blink-caret {
+            from, to { border-color: transparent }
+            20% { border-color: black }
+          }
+    }
 }
 }
-// App.js Style
+
 
 
 // Nav.js Style

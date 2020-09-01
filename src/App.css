@@ -1,23 +1,84 @@
 .homePage {
-  margin: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .homePage .sologan {
   max-width: 550px;
+  margin: 100px 50px;
 }
 
 .homePage .sologan h2 {
   font-family: 'Special Elite';
 }
 
-.homePage .sologan::first-letter {
+.homePage .sologan h2::first-letter {
   font-weight: 999;
   font-size: 2.8rem;
 }
 
-.homePage p {
+.homePage .sologan p {
   letter-spacing: 2px;
   font-weight: 99;
+}
+
+.homePage .frontVector {
+  margin: 50px;
+}
+
+.homePage .frontVector img {
+  width: 650px;
+  height: 380px;
+}
+
+.homePage .frontVector h3 {
+  position: relative;
+  border-right: .15em solid black;
+  top: 180px;
+  letter-spacing: .05em;
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 290px;
+  overflow: hidden;
+  -webkit-animation: typing 3.5s steps(20, end), blink-caret 0.5s step-end;
+          animation: typing 3.5s steps(20, end), blink-caret 0.5s step-end;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  20% {
+    border-color: black;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  20% {
+    border-color: black;
+  }
 }
 
 .Apps .navBar {

@@ -34,9 +34,13 @@ const Home=()=>(
    <div className="btn btn-primary justify-content-center">
      Learn More
    </div>
-   <div className="frontVector">
-     <img src="./images/laptop.png" alt=""/>
    </div>
+   <div className="frontVector">
+   <h3>
+      Hello Uday Adhikari
+      </h3>
+     <img src="laptop.png" alt=""/>
+      
    </div>
 
  </div>
