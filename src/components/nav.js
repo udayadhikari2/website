@@ -10,7 +10,7 @@ function Nav() {
             <header className="App-header">
                 <div className="navBar">
                     <div className="logo">
-                        logo
+                        <img src="UA.png" alt=""/>
                 </div>
                     <div className="navList">
                         <Link className="linkStyle" to=''>
