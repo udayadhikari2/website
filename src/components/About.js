@@ -22,9 +22,22 @@ function About() {
                             <div className="team">
                                 <div className="Uday">
                                     <img src="../Uday.png" alt=""/>
+                                    <p>
+                                        <span>Uday Adhikari</span><br/>
+                                        Computer Engineer <br/>
+                                        Web Developer
+                                    </p>
+                                </div>
+                                <div className="verticalLine">
                                 </div>
                                 <div className="Aashish">
+                                <p>
+                                <span>Aashish Rana Magar</span><br/>
+                                        Computer Engineer <br/>
+                                        Web Developer
+                                    </p>
                                     <img src="../aashish.png" alt=""/>
+                                    
                                 </div>
                             </div>
                         </div>

@@ -10,7 +10,7 @@ function Nav() {
             <header className="App-header">
                 <div className="navBar">
                     <div className="logo">
-                        <img src="UA.png" alt=""/>
+                        <img src="UA.png" title="Uday Adhikari" alt=""/>
                 </div>
                     <div className="navList">
                         <Link className="linkStyle" to=''>

@@ -125,12 +125,108 @@
         .TeamCredits{
             .team{
                 display:flex;
-                justify-content:space-around;
+                justify-content:space-between;
+                .Uday{
+                    display: flex;
+                    img{
+                        width:150px;
+                        border-radius: 50%;
+                    }
+                    p{
+                        margin:30px 20px;
+                        span{
+                            font-weight:bold;
+                            text-transform: uppercase;
+                            font-family: 'Special Elite',cursive;        
+                            }
+                    }
+                }
+                .verticalLine{
+                    border:0px solid red;
+                    opacity:1;
+                    box-shadow: 0px -10px 10px 3px rgba(0,0,0,0.4);
+                }  
+                .Aashish{
+                    display: flex;
+                    p{
+                        margin:30px 20px;
+                        span{
+                            font-weight:bold;
+                            text-transform: uppercase;
+                            font-family: 'Special Elite',cursive;        
+                            }
+                    }
+                    img{
+                        width:150px;
+                        border-radius: 50%;
+                    }
+                } 
             }
-            img{
-                width:150px;
-                border-radius: 50%;
+        }
+    }
+}
+}
+
+// Contact.js Page
+.Contact{
+    margin-top:30px;
+    text-align:center;
+    .Contact-header{
+        h1,h2{
+            font-family: 'Modak', cursive;
+            &::first-letter{
+                font-family: 'Special Elite';
+                margin:5px 0px;
+                font-size:5rem;
+                font-weight:bold;
+                text-decoration:underline;
             }
+        }
+        .contactContainer{
+            display:flex;
+            margin:40px 0px;
+            justify-content:space-around;
+            h4{
+                font-family: 'Special Elite', cursive;
+                text-decoration:underline;
+            }
+        .formContainer{
+            text-align:left;
+            form{
+                input,textarea{
+                    margin:10px 0px;
+                    padding:10px;
+                    outline:none;
+                    border:1px solid black;
+                    border-radius:5px;
+                    &:focus{
+                       background-color:rgba(238, 235, 235, 0.171);
+                }
+            }
+                .MessageInput{
+                    textarea{
+                        max-width:500px;
+                        max-height:150px;
+                        min-width:300px;
+                        min-height:100px;
+                        overflow:auto;
+                    }
+                }
+                .EmailInput{
+                    input{
+                        width:300px;
+                    }
+
+                }
+                .sendButton{
+                    margin:10px 0px;
+                    .btn{
+
+                    }
+                }
+            }
+        }
+        .Address{
         }
     }
     }

@@ -181,12 +181,120 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Uday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Uday img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Uday p {
+  margin: 30px 20px;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Uday p span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Special Elite',cursive;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .verticalLine {
+  border: 0px solid red;
+  opacity: 1;
+  -webkit-box-shadow: 0px -10px 10px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px -10px 10px 3px rgba(0, 0, 0, 0.4);
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Aashish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Aashish p {
+  margin: 30px 20px;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Aashish p span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Special Elite',cursive;
+}
+
+.About .About-header .AboutDiscription .TeamCredits .team .Aashish img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Contact {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Contact .Contact-header h1, .Contact .Contact-header h2 {
+  font-family: 'Modak', cursive;
+}
+
+.Contact .Contact-header h1::first-letter, .Contact .Contact-header h2::first-letter {
+  font-family: 'Special Elite';
+  margin: 5px 0px;
+  font-size: 5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Contact .Contact-header .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 0px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.About .About-header .AboutDiscription .TeamCredits img {
-  width: 150px;
-  border-radius: 50%;
+.Contact .Contact-header .contactContainer h4 {
+  font-family: 'Special Elite', cursive;
+  text-decoration: underline;
+}
+
+.Contact .Contact-header .contactContainer .formContainer {
+  text-align: left;
+}
+
+.Contact .Contact-header .contactContainer .formContainer form input, .Contact .Contact-header .contactContainer .formContainer form textarea {
+  margin: 10px 0px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.Contact .Contact-header .contactContainer .formContainer form input:focus, .Contact .Contact-header .contactContainer .formContainer form textarea:focus {
+  background-color: rgba(238, 235, 235, 0.171);
+}
+
+.Contact .Contact-header .contactContainer .formContainer form .MessageInput textarea {
+  max-width: 500px;
+  max-height: 150px;
+  min-width: 300px;
+  min-height: 100px;
+  overflow: auto;
+}
+
+.Contact .Contact-header .contactContainer .formContainer form .EmailInput input {
+  width: 300px;
+}
+
+.Contact .Contact-header .contactContainer .formContainer form .sendButton {
+  margin: 10px 0px;
 }
 /*# sourceMappingURL=App.css.map */
