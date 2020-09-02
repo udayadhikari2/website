@@ -4,7 +4,11 @@ import Nav from './components/nav';
 import About from './components/About';
 import Contact from './components/contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
+import 'material-icons/css/material-icons.min.css';
+import 'material-icons/iconfont/material-icons.css';
 import './App.scss';
+
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {

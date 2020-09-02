@@ -8,7 +8,7 @@ function About() {
                 <h1>About Us
             </h1>
                 <div className="AboutBody">
-                    <div className="AboutLogo">
+                    <div className="AboutLogo animate__animated animate__fadeInLeft">
                         <img src="../abouts.png" alt="" />
                     </div>
                     <div className="AboutDiscription">
@@ -19,7 +19,7 @@ function About() {
                         <div className="TeamCredits">
                             <h2>Credits
                             </h2>
-                            <div className="team">
+                            <div className="team animate__animated animate__fadeInDown">
                                 <div className="Uday">
                                     <img src="../Uday.png" alt=""/>
                                     <p>
