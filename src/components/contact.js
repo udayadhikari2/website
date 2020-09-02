@@ -52,7 +52,7 @@ function Contact() {
                         <h4>
                             Through Social-Media....
                     </h4>
-                        <div className="social">
+                        <div className="social animate__animated animate__fadeInDown">
                         <Facebook className="fb media"></Facebook>
                         <Twitter className="twitter media"></Twitter>
                         <Instagram className="insta media"></Instagram>
