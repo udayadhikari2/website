@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Icon from '@material-ui/core/Icon';
+import { Facebook, Twitter,Instagram } from '@material-ui/icons';
 
 function Contact() {
     return (
@@ -48,22 +48,16 @@ function Contact() {
                     </div>
                     
                 </div>
-                {/* <div className="socialMedia">
+                 <div className="socialMedia">
                         <h4>
                             Through Social-Media....
                     </h4>
-                        <div className="facebook">
-                            <span className="material-icons">facebook</span>
+                        <div className="social">
+                        <Facebook className="fb media"></Facebook>
+                        <Twitter className="twitter media"></Twitter>
+                        <Instagram className="insta media"></Instagram>
                         </div>
-                        <div className="twitter">
-                            <span className="material-icons">twitter</span>
-                        </div>
-                        <div className="instagram">
-                            <span className="material-icons">instagram</span>
-                        </div>
-                    </div> */
-                    <Icon>star</Icon>
-                    }
+                    </div>
             </header>
         </div>
 

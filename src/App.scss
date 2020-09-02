@@ -195,7 +195,6 @@
             display:flex;
             margin:20px 0px;
             justify-content:space-around;
-            border:1px solid;
             h4{
                 font-family: 'Special Elite', cursive;
                 text-decoration:underline;
@@ -209,6 +208,8 @@
                     outline:none;
                     border:1px solid black;
                     border-radius:5px;
+                    font-weight:bold;
+                    font-family: 'Pompiere';
                     &:focus{
                        background-color:rgba(238, 235, 235, 0.171);
                 }
@@ -240,7 +241,12 @@
             width:600px;
             span,h5{
                padding:10px;
-               text-align:left;
+               text-align:left;   
+            }
+            h5{
+                font-size:25px;
+                font-weight:bold;
+                font-family: 'Pompiere';
             }
         .Address{
             display:flex;
@@ -253,5 +259,21 @@
         }
     }
     }
+    .socialMedia{
+        h4{
+            font-family: 'Special Elite', cursive;
+            text-decoration:underline;
+        }
+        .social{
+            .media{
+            margin:15px;
+            font-size:35px;
+            &:hover{
+                color:red;
+            }
+        }
+    }
+    }
+   
     }
 }
