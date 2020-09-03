@@ -43,7 +43,7 @@ const Home = () => (
     </div>
     <div className="frontVector">
       <h3>
-        Welcom to My Website
+        Welcome to My Website
       </h3>
       <img src="laptop.png" alt="" />
 
